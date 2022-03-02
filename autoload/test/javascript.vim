@@ -1,5 +1,5 @@
 let test#javascript#patterns = {
-  \ 'test': ['\v^\s*%(it|test)\s*[( ]\s*%("|''|`)(.*)%("|''|`)'],
+  \ 'test': ['\v^\s*%(it|test|it\.db)\s*[( ]\s*%("|''|`)(.*)%("|''|`)'],
   \ 'namespace': ['\v^\s*%(describe|suite|context)\s*[( ]\s*%("|''|`)(.*)%("|''|`)'],
 \}
 
